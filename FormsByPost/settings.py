@@ -127,4 +127,5 @@ STATICFILES_DIRS=[BASE_DIR/'static']
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
+# Optional: Enable gzip and Brotli compression for better performance
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
